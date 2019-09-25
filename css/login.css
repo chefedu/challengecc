@@ -1,0 +1,75 @@
+@media only screen and (max-width: 700px) {
+  section {
+    flex-flow: column-reverse
+}
+section div{
+margin: 10px;
+}
+ article {
+  
+}
+  body{
+    padding: 0%;
+  }
+}
+body
+{
+  padding-inline-end: 15%;
+  padding-inline-start: 15%;
+  transition: 2s;
+ 
+  backface-visibility: visible;
+  isolation: isolate;
+  color-adjust: economy;
+  caret-color: cadetblue;
+  lighting-color: chartreuse;
+  ime-mode: active;
+  visibility:  inherit;
+  backface-visibility: visible;
+  padding-block-end: 7%;
+}
+
+.marg1
+{
+  left: 20px;
+}
+ /* for panel end*/ 
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+div{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+div ul{
+  list-style-type: none;
+  padding: 0;
+}
+div li{
+  text-align:left;
+  border: solid 1px cadetblue;
+  background-color: #e3eeed;
+  column-width: 200px;
+  /*! column-fill: 200px; */
+  column-gap: 200px;
+  color: #778282;
+}
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: transparent;
+  padding: 10px;
+}
+input{
+  width: 100%;
+}

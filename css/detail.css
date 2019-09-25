@@ -1,0 +1,167 @@
+div.bod{
+    
+    border:  alicebluew;
+}
+div.info{
+    width: 90%;
+    display:   inline-block;
+}
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size:5px;
+    color: white;
+}
+/* Container for flexboxes */
+section {
+    display: flex;
+    border-color: blue;
+    border-style: double;
+}
+body{
+}
+/* Style the navigation menu */
+div.profile {
+    -ms-flex: 1;
+    background: transparent;
+    width: 100%;
+    flex: 1;
+}
+
+/* Style the list inside the menu */
+
+.image
+{
+
+width: 200px;
+height: 260px;
+object-fit:fill;
+}
+/* Style the content */
+article {
+    -webkit-flex: 12;
+    -ms-flex: 5 ; 
+    background-color: transparent;
+    border-right-color: blue;
+    border-right-style: double;
+}
+
+footer{
+    background-color: cadetblue ;
+    display: flex;
+}
+.jumbotron{
+    padding-left:5px;
+padding-right: 5px;
+}
+table td.p:nth-child(2){
+     text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
+table td.p:nth-child(1){
+  
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+}
+}
+table td.l:nth-child(2){
+    text-indent: 44px;
+}
+
+table tr.l:nth-child(1){
+    color: #00dfff;
+    font-size:25px;
+   
+}
+table tr.l:nth-child(2){
+    color: #00afff;
+    font-size: 17px
+   
+}
+table tr.l:nth-child(3){
+    color: #00c7ff;
+    font-size: 16px
+   
+}
+table tr.l:nth-child(4){
+    color: #00c7ff;
+    font-size: 16px
+   
+}
+.log{
+        display:  -webkit-inline-flex;
+        margin: 20%;
+        float: right ;
+    }
+@media (max-width: 730px) {
+    body{
+        overflow-x:  hidden;
+        width: 100%;
+    }
+    section { 
+    flex-direction: column-reverse;
+    
+}
+    table{
+     
+    }
+    table td.p:nth-child(2){
+    text-indent: 0px;
+        font-size: calc(90% - 1px);
+        
+}
+table td.p:nth-child(1){
+    text-indent: 0px;
+     font-size: calc(90% - 1px);
+    
+}
+table td.l:nth-child(2){
+    text-indent: 25px;
+    font-size: calc(90% - 1px);
+     text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
+    table td.l:nth-child(1){
+     text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+    font-size: calc(90% - 1px);
+}
+table tr.l:nth-child(1){
+    color: #bbcf;
+    font-size:19px;
+   
+}
+table tr.l:nth-child(2){
+    color: #bbcf;
+    font-size: 19px;
+    text-align: left;
+}
+table tr.l:nth-child(3){
+    color: #bbcf;
+    font-size: 19px;
+}
+table tr.l:nth-child(4){
+    color: #bbcf;
+    font-size: 19px;  
+}
+    div.profile
+    {  
+        border:solid, aliceblue,2px;
+    }
+    article {
+        flex: 3;
+    table-layout: fixed;
+        border-right: none;
+}
+    .log{
+        display:  inline-flex;
+        margin: 20%;
+        float: right ;
+    }
+    
+}

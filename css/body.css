@@ -1,0 +1,178 @@
+.bg-t
+{
+  background: linear-gradient( 60deg,#caa239 0%,#8f2393 60%,#9e22b7 0%,#9aae45 100%); 
+}
+.greating{
+	display:flex;
+}
+.Underline{
+	text-decoration-line:  underline;
+	text-decoration-style:  double;
+	text-decoration-color:  wheat;
+	text-emphasis:aliceblue;
+}
+.left{
+	position:fixed;
+	background-origin: padding-box;
+	background-repeat:  no-repeat;
+	background-position:  right;
+	flex-wrap: wrap;
+	width: 100%;  
+	height: 140px;
+	background-image: url(../images/Logo2.bmp);
+	transition: 2s;
+	
+}
+  .jumbotron{
+		
+    
+    padding: 15;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 60deg,#caa239 0%,#8f2393 60%,#9e22b7 0%,#9aae45 100%);     
+  }
+
+	.carousel-inner img {width: 100%;height: 100%;object-fit:   fill;}
+
+	p.copy{text-align: justify;font-stretch:extra-condensed;}
+
+	h1.centerl{text-align: left;}	
+.Express{
+	margin-block: 50px;
+	display:flex;}
+.represent{
+	flex-direction: column;
+	border-style: solid;
+	border-width: 1px;
+	margin-inline: 1%;
+	margin-block-start: 5%;
+	flex: 1;
+	width: 100%;
+	/*! height: 400px; */
+  display:flex;
+}
+.represent-bar{
+	display: flex;
+	flex-direction:row;
+	flex:1;
+}
+.Represent-image{
+	position: absolute;
+	padding: 5%;
+	background-image: url('images/course.jpg');
+	border-radius: 50%;
+	margin-block:-7%;
+	margin-inline: 10%;
+	text-transform: none;
+	background-position: center;
+background-origin: padding-box;
+background-size: cover;
+	
+}
+.images{
+	background-image: url('images/Design.jpg');
+}
+.images-1{
+	background-image: url('images/act.png');
+}
+.images-2{
+	background-image: url('images/index.png');
+}
+.images-3{
+	background-image: url('images/index.jpg');
+}
+.images-4{
+	background-image: url('images/images.jpg');
+}
+.represent-text{
+	shape-outside:circle();
+	shape-margin: circle();
+	display: flex;
+	flex:1;
+	flex-direction:  row-reverse;
+	border-block-end: solid;
+	padding-block: 10%;
+	border-block-width: 1px;
+}
+.lable-header{
+	shape-outside:circle();
+	shape-margin: circle();
+	text-align: end;
+	font-size:25px;
+	text-align-last:auto;
+	padding-inline: 2%;
+	flex-wrap:  wrap;
+	shape-outside:circle();
+}
+.About-text{
+	flex: 2;
+	text-align: justify;
+	padding: 15px;
+	text-rendering: optimizelegibility;
+}
+	.anim{ 
+		position: absolute;
+	animation-name:example; 
+	animation-duration:13s; 
+	animation-fill-mode:forwards; 
+	padding: 25px 30px;
+	justify-content: center;
+	text-align:center;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+	overflow: hidden;
+	background: rgba(255,255,222,.1);
+	box-shadow: 0 20px 40px rgba(0,0,0,.4);
+	}
+
+.animate-bottom {
+  position: fixed;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+	
+}
+#myDiv {
+  display: none;
+  text-align: normal;
+	
+}
+
+   @keyframes example {
+						0% {left: 15px;}
+						50% {left: 100px;}
+						100%{left:45px;}
+						}
+.jumbotron{
+}
+.sublime{
+	display: none;
+}
+ @media only screen and (max-width: 990px)
+   {
+	img.g1{display: none;}
+	a.g1{display: none;}
+		 .navbar{ width: 100%;}
+	}
+@media only screen and (max-width: 775px)
+   {
+	img.g1{display: none}
+	a.g1{display: none}
+	.sublime{display: contents; color: wheat;}
+	}
+@media only screen and (max-width: 500px)
+{
+	
+}
+body{
+
+	  background-image: linear-gradient( 60deg,#caa239 0%,#8f2393 60%,#9e22b7 0%,#9aae45 100%);
+width: 100%;
+	height: 100%;
+	  transition-timing-function: cubic-bezier(.83,0,.65,1.54);
+}

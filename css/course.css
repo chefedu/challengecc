@@ -1,0 +1,118 @@
+.Head-body{width: 100%;}
+.User-contain{display: flex;background: #6789;}
+.User-dashbord{display: flex;width: 100%}
+.User-detail{display: grid;flex: 10;margin-inline-end: 5px;}
+.User-Log{flex: 1;}
+.Head{display: flex;}
+.Head-object{display:flex;flex: 3;width: 100%;flex-direction: column;background-image:url(../image/bg_1.jpg);object-position:center;object-fit:contain;background-origin:border-box;background-position:center;background-size:cover;background-blend-mode:color-dodge;image-rendering:optimizequality;filter:saturate(3);}
+.Head-name{font-family: Verdana, Geneva, sans-serif;background: #6789;color: #ffff;flex: 1;}
+.Head-lecture{font-family: Verdana, Geneva, sans-serif;display: grid;width: 100%;flex: 1;text-align: end;}
+.content-table{
+  display: flex;
+}
+.content-Atribute
+{
+  background: #FFFF;
+  flex: 1;
+}
+.content-lecture{
+  flex: 6;
+  background: #4449;
+}
+.content-title{
+  display: grid;
+  padding-inline-start: 10%
+}
+.Lecture-Book{
+  display: flex;
+  background-color: #4321;
+  padding: 1%;
+  flex-direction:  column;
+  margin: 1%;
+  border-radius: 2px
+}
+.Lecture-img{
+  position: relative;
+  border-radius: 100%;
+  background-origin: border-box ;
+  background-position: center;
+  object-fit: contain;
+  image-orientation:  from-image;
+  width: 10%;
+  content:url(../image/py.jpg);
+  animation-name: pinball;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-timing-function:  cubic-bezier;
+  animation-fill-mode: both;
+}
+@keyframes pinball {
+  0%   {left:-20%; top:-200px;}
+  20% {left: 30%; top:5%;}
+  30%{left: 35%; top:7.5%;}
+  35% {left: 40%; top:5%;}
+  40%{left: 45%; top:7.5%;}
+  45% {left: 50%; top:5%;}
+  50%{left: 55%; top:7.5%;}
+  55% {left: 60%; top:5%;}
+  60%{left: 65%; top:7.5%;}
+  65% {left: 70%; top:5%;}
+  70%{left: 75%; top:7.5%;}
+  75% {left: 80%; top:5%;}
+  80%{left: 85%; top:7.5%;}
+  100% {left:90%; top:0%;}
+}
+.Lecture-contain{
+  display: flex;
+  flex-direction: column;
+}
+.Lecture-Name
+{
+  display: flex;
+  font-size: 50px;
+  flex-direction: row;
+}
+@media only screen and (max-width: 768px){
+  .Lecture-Name{
+    flex-direction: column;
+  }
+  .Lecture-img{position: revert; width: 20%;}
+  .User-detail{background: white; }
+}
+
+.Menter-tut{
+ flex: 12; 
+}
+.Menter
+{
+  font-size:  xx-large;
+}
+.Cost-Month{
+text-align:  end;
+  background: #1112;
+font-size-adjust: .8;
+font-family: Verdana, Geneva, sans-serif;
+  padding: 1%
+}
+.Lecture-Mentor{
+  font-size-adjust: .9;
+  font-family: Verdana, Geneva, sans-serif;
+  background: #1113;
+}
+.Enroll-Btn{
+  text-decoration-style:   -moz-none;
+  padding: 2%; 
+  text-align:  center;
+  background:  #1586;
+  transition: 2s;
+  color: #ffff;
+}
+.Enroll-Btn:hover{
+  background: #1589;
+  transition: 2s;
+  color: aqua;
+}
+.contact{
+  text-decoration-style:  -moz-none;
+  color: black;
+}

@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+<title>Login</title>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link href="css/mob.css" rel="stylesheet">
+</head>
+<body class="body1">
+<div id="is">
+<label class="up" id="is">upload</label>
+    </div>
+	<div  id="lf" >
+      <label class="pu">Login</label>
+    </div>
+<div type="button" class="slider" onclick="varl()" ></div>
+<div class="mid">
+<form action="reg.php" method="POST">
+<table class="mid" id="l">
+
+<tr>
+<td><label>password</label></td>
+<td><input type="password" name="password"></td>
+
+</tr>
+<tr>
+<td></td>
+<td><input type="Submit" value="Submit" class="btn bt"><td>
+</tr>
+</table>
+</form>
+</div>
+<div class="name "id="ls">
+<div class="div1">
+  </div>
+  <div class="div1">
+  </div>
+  <div class="div1">
+  </div>
+  <div class="div2">
+  </div>
+  
+</div>
+<script>
+function varl()
+{
+document.getElementById("ls").style.transition = "all 2s cubic-bezier(.09,1.48,1,-0.32) 0s";
+document.getElementById("ls").style.transform = "translateX(100%)";
+document.getElementById("l").style.transition = "2s";
+document.getElementById("l").style.display ="inline-table";
+document.getElementById("lf").style.transform = "translateX(50%)";
+document.getElementById("lf").style.transition = "2s";
+document.getElementById("is").style.transition="2s";
+document.getElementById("is").style.transform= "translateX(-10%)";
+}
+</script>
+</body>
+</html>
